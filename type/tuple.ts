@@ -1,10 +1,11 @@
-type ProductData = [number, number];
-const item: ProductData = [15, 20];
-item.push(30);
-// console.log(item);
+let Numbers: [number, number] = [10,20];
+Numbers.push(30);
+console.log(Numbers);
 
 
-type UserData = readonly [number, string];
-const user1: UserData = [110, "Araf"];
-// user1.push(220);
-console.log(user1);
+let ages: readonly[number, number] = [22,20];
+console.log(ages);
+
+//note:
+// 1. Tuples in TypeScript are arrays with a fixed number of elements and specific types for each position.
+// 2. Tuples are useful when you have a known set of elements with specific types and you want to ensure type safety.
