@@ -3,6 +3,8 @@
         "target": "esnext",
         "outDir": "asstes/js",
         "rootDir": "./",
-        "noEmitOnError": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "moduleDetection": "force" 
     }
 }
