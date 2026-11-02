@@ -1,4 +1,4 @@
-let age: number = 20;
+let age: number = 20.5;
 
 console.log(`
     How old are you?
